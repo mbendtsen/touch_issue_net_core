@@ -1,5 +1,5 @@
 # Description 
-This is a repos project to demonstrate an issue with touch and .NET Core.
+This is a repros project to demonstrate an issue with touch and .NET Core.
 This requires a touch enabled device.
 
 The issue is that if a splash screen has been shown in another thread, then touch is not working in the main window. This works in .NET Framework, but not .NET Core 3.1.
