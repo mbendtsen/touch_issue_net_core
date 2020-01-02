@@ -1,1 +1,1 @@
-# touch_issue_net_core
+# This is a repos project to demonstrate an issue with touch and .NET Core.
