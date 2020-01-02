@@ -9,7 +9,8 @@ The issue is that if a splash screen has been shown in another thread, then touc
 1. Build and run
 1. Touch/tap the white area.
 
-Expected: Two events should be shown in the black box, PreviewMouseDown and PreviewTouchDown.
+Expected: Two events should be shown in the black box, PreviewMouseDown and PreviewTouchDown. Touch scrolling does not work.
+
 Actual: One event is shown, PreviewMouseDown.
 
 # Making it work in .NET Framework.
@@ -18,4 +19,4 @@ Actual: One event is shown, PreviewMouseDown.
 1. Build and run
 1. Touch/tap the white area.
 
-Actual: Two event is shown, PreviewMouseDown and PreviewTouchDown.
+Actual: Two event is shown, PreviewMouseDown and PreviewTouchDown. Touch scrolling works.
