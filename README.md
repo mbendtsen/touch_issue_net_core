@@ -11,8 +11,8 @@ The issue is that if a splash screen has been shown in another thread, then touc
 1. Build and run
 1. Touch/tap the white area.
 
-- Expected: Two events should be shown in the black box, `PreviewMouseDown` and `PreviewTouchDown`. Touch scrolling does not work.
-- Actual: One event is shown, `PreviewMouseDown`.
+- Expected: Two events should be shown in the black box, `PreviewMouseDown` and `PreviewTouchDown`. Touch scrolling does work.
+- Actual: One event is shown, `PreviewMouseDown`. Touch scrolling does not work
 
 ## .NET Framework.
 1. Open project file
@@ -20,5 +20,5 @@ The issue is that if a splash screen has been shown in another thread, then touc
 1. Build and run
 1. Touch/tap the white area.
 
-- Expected: Two events should be shown in the black box, `PreviewMouseDown` and `PreviewTouchDown`. Touch scrolling does not work.
+- Expected: Two events should be shown in the black box, `PreviewMouseDown` and `PreviewTouchDown`. Touch scrolling does work.
 - Actual: Two event is shown, `PreviewMouseDown` and `PreviewTouchDown`. Touch scrolling works.
